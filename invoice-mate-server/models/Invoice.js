@@ -12,7 +12,7 @@ const invoiceSchema = new mongoose.Schema({
   total: Number,
   status: {
     type: String,
-    enum: ["Paid", "Unpaid"],
+    enum: ["Paid", "Unpai"],
     default: "Unpaid"
   },
   createdAt: {
