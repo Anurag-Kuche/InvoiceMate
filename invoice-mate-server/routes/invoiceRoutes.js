@@ -27,4 +27,4 @@ router.delete("/:id", async (req, res) => {
   res.json({ message: "Invoice deleted" });
 });
 
-module.exports = router
+module.exports = router;
